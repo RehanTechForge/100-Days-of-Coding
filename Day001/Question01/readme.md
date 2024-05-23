@@ -12,8 +12,8 @@ This is a simple TypeScript project that prints "Hello World" to the console.
 1. **Clone the repository**
 
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/RehanTechForge/100-Days-of-Coding
+    cd 100-Days-of-Coding
     ```
 
 2. **Install dependencies**
@@ -36,7 +36,7 @@ This is a simple TypeScript project that prints "Hello World" to the console.
     tsc
     ```
 
-    This will compile the TypeScript files in the project and generate corresponding JavaScript files in the `dist` folder (or as specified in your `tsconfig.json`).
+    This will compile the TypeScript files in the project and generate corresponding JavaScript files in the `app.js` file (or as specified in your `tsconfig.json`).
 
 2. **Run the compiled JavaScript**
 
