@@ -1,6 +1,14 @@
+100-Days-of-Coding/
+├── app.js
+├── app.ts
+├── package.json
+├── tsconfig.json
+└── README.md
+
+
 # Hello World TypeScript Project
 
-This is a simple TypeScript project that prints "Hello World" to the console.
+This is a simple TypeScript project that demonstrates string manipulation.
 
 ## Prerequisites
 
@@ -33,7 +41,7 @@ This is a simple TypeScript project that prints "Hello World" to the console.
 1. **Compile the TypeScript file**
 
     ```bash
-    tsc
+    npm run build
     ```
 
     This will compile the TypeScript files in the project and generate corresponding JavaScript files in the `app.js` file (or as specified in your `tsconfig.json`).
@@ -41,14 +49,19 @@ This is a simple TypeScript project that prints "Hello World" to the console.
 2. **Run the compiled JavaScript**
 
     ```bash
-    node app.js
+    npm start
     ```
 
-    You should see "Hello World" printed to the console.
+    You should see:
+    ```
+    rehan
+    REHAN
+    Rehan
+    ```
 
 ## Project Structure
 
-- `app.ts`: The main TypeScript file that contains the "Hello World" code.
+- `app.ts`: The main TypeScript file that contains the string manipulation code.
 - `tsconfig.json`: The TypeScript configuration file.
 - `package.json`: The project configuration file containing scripts and dependencies.
 

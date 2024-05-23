@@ -1,3 +1,10 @@
+100-Days-of-Coding/
+├── app.js
+├── app.ts
+├── package.json
+├── tsconfig.json
+└── README.md
+
 # Hello World TypeScript Project
 
 This is a simple TypeScript project that prints "Hello World" to the console.
